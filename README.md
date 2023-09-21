@@ -38,9 +38,9 @@ To use the project, follow these steps:
 
 2. Run the program:
 
-  ```bash
-  python run.py
-  ```
+   ```bash
+   python run.py
+   ```
 
 ## Contributing
 
