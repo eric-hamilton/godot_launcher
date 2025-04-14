@@ -40,7 +40,7 @@ class App():
             creation_flags = 0
 
         try:
-            subprocess.Popen([engine_path], creationflags=creation_flags)
+            subprocess.Popen([engine_path, "--verbose"], creationflags=creation_flags)
         except OSError as e:
             self.logger.error(f"Error launching the engine: {e}")
 
