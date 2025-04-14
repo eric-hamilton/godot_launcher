@@ -3,8 +3,8 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QLabel, QComboBox,
                             QProgressBar, QToolButton, QMenu, QAction,
                             QSpacerItem, QSizePolicy, QCheckBox)
 
-from PyQt5.QtCore import Qt, QObject, QThread, pyqtSignal, QUrl
-from PyQt5.QtGui import QColor, QDesktopServices
+from PyQt5.QtCore import Qt, QThread, pyqtSignal, QUrl
+from PyQt5.QtGui import QDesktopServices
 from godot_launcher import utils
 
 signaler = utils.signaler

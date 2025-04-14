@@ -1,0 +1,22 @@
+Todo
+
+Add check to see if version has mono support
+
+make a split install button for mono-supported versions
+
+make a separate folder within versions to indicate mono or standard
+
+
+-Make an alert that says "new versions available"
+
+open docs
+
+open repo
+
+-add quit button
+
+- Open log button
+
+- Have the subprocess open in a separate console window
+
+- ensure the combobox has the versions in chronological order.

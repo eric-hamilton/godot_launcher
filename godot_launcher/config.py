@@ -1,5 +1,4 @@
-import os   
-import sys
+import os
 from datetime import datetime
 from configparser import ConfigParser
 from godot_launcher import utils
@@ -154,7 +153,7 @@ class Config():
         self.cfg["Config"]["selected_version"] = version
         self.save_config()
     
-    def get_installed_version_path(version):
+    def get_installed_version_path(self, version):
         return self.cfg["InstalledVersions"][version]
         
     def save_config(self):
